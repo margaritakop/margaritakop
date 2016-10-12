@@ -1,0 +1,149 @@
+@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+@import 'https://fonts.googleapis.com/css?family=Bitter';
+  header {
+        text-align: left;
+        color:black; 
+        background-image: url("mara-BG.jpg");
+        /* or use this link: https://lh4.googleusercontent.com/O4N6QJ4dUmn6f2K6jkcNr4lfCbtDO-_nl5jDrRNgiJ7IH4aZ1G9bLGFugYHO8SGJ3XrHtQmbTaMXIJE=w1294-h864")*/
+        background-size: cover; 
+        margin: 0px;  
+        padding:0px; 
+      }
+
+  h1{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 0;
+    margin: 0;
+    color: rgba(224, 235, 235,0.9);
+  }
+  body{
+      background-image: url("levelek-BG.jpg");
+      /*or use this link: https://lh5.googleusercontent.com/kAnQGMifTdM-VL9CKad8SFRdBFfBQ475Tk76kwRvexGz6gebwW_z1CdROJqur14Qd3mhsye22JP5CdY=w1294-h864*/
+      background-attachment: scroll;
+      background-size: cover;
+      font-family: 'Bitter', serif;
+    }
+  a {
+      color: rgba(224, 235, 235,0.9);
+      text-decoration:none;
+    }
+  a:hover {
+    color: orange;
+    }
+  .head {
+      color: black;
+      text-decoration:none;
+      font-size: 40px;
+      background: radial-gradient(rgba(214, 245, 245, 0.1),rgba(214, 245, 245, 0.6));
+      border-radius: 80px;
+      padding: 20px;
+      margin: 40px;
+    }
+    .headlist a:hover{
+      color: rgba(224, 235, 235,0.9);
+      background: rgba(41, 163, 163, 0.05);
+    }
+    .headlist li {
+        display: block;
+        text-align: right;
+        margin: 20px 20px 20px 20px;
+      }
+    h1{
+    	font-size: 80px;
+    	padding-top: 40px;
+      margin-left: 20px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 35px;
+    }
+    h2{
+    	font-size: 40px;
+      }
+    p{
+      font-size: 20px;
+    }
+    h3{
+      font-size: 30px;
+      margin: 10px;
+    }
+
+    div{
+      max-width: 800px;
+      padding-left: 20px;
+      padding-top: 5px;
+      padding-right: 20px;
+      padding-bottom: 5px;
+      margin: 10px auto;
+      background-color: rgba(25, 77, 25,0.8);
+      border-radius: 40px;
+      }
+
+    .last {
+      margin-bottom: 50px;
+      }
+ 
+    .bullets {
+      	display: block;
+      	padding: 5px 5px 5px 35px;
+      	list-style-type: circle;
+      }
+    .bullets li{
+      padding:10px;
+      font-size: 20px;
+    }
+    .news {
+      color:black;
+    	background: linear-gradient(rgba( 207, 224, 225, 1),rgba(224,235,235,1),rgba( 207, 224, 225 , 1));
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+      margin: 0px;
+      width: span;
+      max-width: 3000px;
+      border-radius: 0px;
+    }
+    .inner {
+      background-color: rgba(224,235,235,0.8);
+    }
+    .news a{
+      color:#669900;
+    }
+    .news a:hover{
+      color:orange;
+    }
+    img{
+      height: 400px;
+      border-radius: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 600px) {
+        h1{
+          font-size: 40px;
+        }
+        h2{
+        	font-size: 18px;
+          margin: 5px;
+        }
+        h3{
+        	font-size: 16px;
+          margin: 5px;
+        }
+        p{
+        	font-size: 14px;
+        	padding: 5px;
+          margin: 0px;
+        }
+        .bullets li{
+       	font-size: 16px;
+        display: block;
+        padding: 5px;
+        }
+        .head{
+          font-size: 18px;
+        }
+     }
+     @media (max-width: 900px) {
+      div{
+        margin: 10px;
+      }
