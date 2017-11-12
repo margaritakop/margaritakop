@@ -1,4 +1,13 @@
 .project {
   border-radius: 5px;
-  background-color: #cabebe
+  background-color: #cabebe;
+  margin-bottom: 15px
+}
+
+.logo{
+  width: 90%;
+  margin: 5%;
+  padding: 5%;
+  background-color: white;
+  border-radius: 5px;
 }
