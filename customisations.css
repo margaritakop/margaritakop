@@ -14,4 +14,11 @@
 
 .fa-caret-down{
   color: #1d2f35;
+  margin-top: -10px;
+  margin-bottom: -10px
+}
+
+.card-body{
+  color: #1d2f35;
+  background-color: #cabebe;
 }
