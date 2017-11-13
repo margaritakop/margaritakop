@@ -21,3 +21,11 @@
   color: #1d2f35;
   background-color: #cabebe;
 }
+
+.header{
+  font-size: 200%
+}
+
+#header_icons{
+  letter-spacing: 3px;
+}
