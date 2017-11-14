@@ -52,3 +52,11 @@
 .video_button{
   color: #1d2f35;
 }
+
+.modal-dialog{
+  margin-top: 20%;
+}
+
+.modal-content{
+  border-radius: 5px
+}
