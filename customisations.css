@@ -60,3 +60,9 @@
 .modal-content{
   border-radius: 5px
 }
+
+.header_row{
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
