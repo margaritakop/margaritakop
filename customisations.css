@@ -29,3 +29,12 @@
 #header_icons{
   letter-spacing: 3px;
 }
+
+#headerpic_div{
+  background-color: #485563
+}
+
+#headerpic{
+  max-width: 100%; 
+  max-height: 336px;
+}
