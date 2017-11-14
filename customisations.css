@@ -43,3 +43,12 @@
   color: #1d2f35;
   padding: 1px;
 }
+
+.video_div{
+  text-align: right;
+  position: relative;
+}
+
+.video_button{
+  color: #1d2f35;
+}
